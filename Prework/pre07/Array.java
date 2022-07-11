@@ -6,9 +6,9 @@ public class Array{
 	  //Calling powArray with a list of the numbers 1 to 4, using the power 3.
 		double[] a = {1.0,2.0,3.0,4.0};
 		double n = 3;
-		System.out.println("Here is an array:");
+		System.out.println("Array:");
 		System.out.println(Arrays.toString(a));
-		System.out.println("Here is that array raised to the power " + n);
+		System.out.println("Array raised to the power " + n);
 		powArray(a,n);
 		System.out.println(Arrays.toString(a));
 		
